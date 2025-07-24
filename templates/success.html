@@ -7,5 +7,9 @@
   <h2>Upload Successful!</h2>
   <p>Your file has been uploaded.</p>
   <img src="{{ url_for('static', filename='uploads/' + filename) }}" width="400">
+   <br><br>
+  <a href="{{ url_for('index') }}">
+    <button type="button">Back to Upload</button>
+  </a>
 </body>
 </html>
