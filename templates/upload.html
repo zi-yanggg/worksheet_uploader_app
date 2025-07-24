@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+  <title>Upload Worksheet</title>
+</head>
+<body>
+  <h2>Upload Your Handwritten Worksheet</h2>
+  <form method="POST" action="/upload" enctype="multipart/form-data">
+    <input type="file" name="file" accept="image/*" capture="environment">
+    <input type="submit" value="Upload">
+  </form>
+</body>
+</html>
